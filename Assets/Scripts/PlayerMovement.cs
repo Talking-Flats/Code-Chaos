@@ -28,13 +28,7 @@ public class PlayerMovement : MonoBehaviour
         {
             velocity.y = -2f;
         }
-        if (Input.GetKey(KeyCode.LeftShift))
-        {
-            speed = playerSpeed + boost; // Увеличиваем скорость движения при нажатом "Shift"
-        }else
-        {
-            speed = playerSpeed;
-        }
+DDDDDD
         //---------Блок движения игрока------------
         float x = Input.GetAxis("Horizontal"); // Считываем значение x
         float z = Input.GetAxis("Vertical"); // Считываем значение Y
