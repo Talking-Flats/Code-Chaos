@@ -53,22 +53,27 @@
     <UnityVersion>2021.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\TrapController.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\Scripts\GunSystem.cs" />
+    <Compile Include="Assets\Scripts\CollisionDetection.cs" />
+    <Compile Include="Assets\Scripts\HealthController.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\trooper\enemyAI.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\Scripts\WeaponController.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunShoot.cs" />
     <Compile Include="Assets\Scripts\PlayerMovment.cs" />
     <Compile Include="Assets\Scripts\Sway.cs" />
     <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
-    <Compile Include="Assets\Scripts\HealthController.cs" />
-    <Compile Include="Assets\Scripts\TrapController.cs" />
-    <Compile Include="Assets\Scripts\RestartGame.cs" />
+    <Compile Include="Assets\MenuAssets\MainMenuScript.cs" />
+    <Compile Include="Assets\MenuAssets\PauseMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

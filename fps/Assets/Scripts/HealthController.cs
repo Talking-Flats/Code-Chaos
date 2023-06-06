@@ -14,8 +14,15 @@ public class HealthController : MonoBehaviour
 
     public void takeDamage(float damage)
     {
-        Debug.Log("taken damage: "+ damage);
-        hp -= damage;
+        if(hp-damage < 0)
+        {
+            hp = 0;
+        }
+        else
+        {
+            hp -= damage;
+        }
+        
         if(gameObject.tag == "Player")
         {
             showHpText();
@@ -53,7 +60,10 @@ public class HealthController : MonoBehaviour
     void Start()
     {
         maxHp = hp;
-        showHpText();
+        if (gameObject.tag == "Player")
+        {
+            showHpText();
+        }
     }
 
     // Update is called once per frame
